@@ -27,8 +27,6 @@ class GenusController extends Controller
             return $note['id'] == $id;
         });
 
-        $data = compact('note');
-
-        return new JsonResponse($data);
+        return new JsonResponse(compact('note'));
     }
 }
