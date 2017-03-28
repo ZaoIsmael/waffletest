@@ -1,0 +1,3 @@
+2017/03/23 09:52:15 [emerg] 1#0: unknown directive "listen:" in /etc/nginx/sites-available/symfony.conf:2
+2017/03/23 09:53:12 [emerg] 1#0: unknown directive "listen:" in /etc/nginx/sites-available/symfony.conf:2
+2017/03/23 09:53:32 [emerg] 1#0: unknown directive "listen:" in /etc/nginx/sites-available/symfony.conf:2

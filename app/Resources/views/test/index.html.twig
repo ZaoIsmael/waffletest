@@ -1,0 +1,8 @@
+{% extends 'base.html.twig' %}
+{% block body %}
+    <h1>Titulo</h1>
+    {{ message }}
+    <dt>Fun Fact:</dt>
+    {{ '99999'|number_format }}
+    <dd>{{ funFact|raw }}</dd>
+{% endblock %}
