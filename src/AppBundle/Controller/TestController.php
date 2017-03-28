@@ -15,7 +15,7 @@ class TestController extends Controller
      */
     public function indexAction(String $message): Response
     {
-        $funFact = 'Octopuses can change the color of their body in just *three-tenths* of a second!';
+        $funFact = 'Octopuses cant change the color of their body in just *three-tenths* of a second!';
 
         $cache = $this->get('doctrine_cache.providers.my_markdown_cache');
         $key = md5($funFact);
