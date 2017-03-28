@@ -28,7 +28,7 @@ class GenusController extends Controller
         });
 
         $data = [
-            'notes' => $note
+            'note' => $note
         ];
 
         return new JsonResponse($data);
